@@ -8,7 +8,7 @@ abstract class AbstractClass
 
     protected function echoFromAbstractClass()
     {
-        echo "[Inside " . AbstractClass::class . "]\n";
+        echo "[Inside " . AbstractClass::class . "] called from [" . get_class($this) . "]\n";
         $this->echoFromTraitA();
     }
 }

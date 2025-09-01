@@ -4,6 +4,6 @@ trait TraitA
 {
     public function echoFromTraitA()
     {
-        echo "[Inside " . TraitA::class . "]\n";
+        echo "[Inside " . TraitA::class . "] called from [" . get_class($this) . "]\n";
     }
 }
