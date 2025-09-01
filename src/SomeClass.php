@@ -8,7 +8,7 @@ class SomeClass extends AbstractClass
 
     public function echoFromSomeClass()
     {
-        echo "[Inside SomeClass]\n";
+        echo "[Inside " . SomeClass::class . "]\n";
         $this->echoFromAbstractClass();
         $this->echoFromTraitB();
     }

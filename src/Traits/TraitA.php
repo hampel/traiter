@@ -4,6 +4,6 @@ trait TraitA
 {
     public function echoFromTraitA()
     {
-        echo "[Inside trait A]\n";
+        echo "[Inside " . TraitA::class . "]\n";
     }
 }
