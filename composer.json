@@ -1,0 +1,22 @@
+{
+    "name": "somevendor/traiter",
+    "description": "Testing traits in composer packages",
+    "authors": [
+        {
+            "name": "Simon Hampel",
+            "email": "simon@hampelgroup.com",
+            "role": "Developer"
+        }
+    ],
+    "license": [
+        "MIT"
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SomeVendor\\Traiter\\": "src/"
+        }
+    }
+}
