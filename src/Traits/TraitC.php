@@ -4,6 +4,6 @@ trait TraitC
 {
     public function echoFromTraitC()
     {
-        echo "Inside trait C\n";
+        echo "[Inside trait C]\n";
     }
 }
